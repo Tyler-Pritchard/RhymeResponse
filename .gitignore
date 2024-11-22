@@ -1,0 +1,49 @@
+# .gitignore for RhymeResponse Project
+
+# Ignore Node.js dependencies
+/frontend/node_modules/
+
+# Ignore Python virtual environment
+/backend/venv/
+
+# Ignore build artifacts and temporary files
+/frontend/.expo/
+/frontend/.expo-shared/
+/frontend/dist/
+/frontend/build/
+/frontend/.turbo/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore environment variable files
+/frontend/.env
+/backend/.env
+
+# Ignore log files
+/frontend/npm-debug.log*
+/backend/*.log
+
+# Ignore local IDE settings
+.vscode/
+.idea/
+
+# Ignore TypeScript build cache
+/frontend/tsconfig.tsbuildinfo
+
+# Ignore Python cache and compiled files
+/backend/__pycache__/
+/backend/*.pyc
+/backend/*.pyo
+
+# Ignore temporary files created by text editors
+*.swp
+*.swo
+*.bak
+
+# Ignore Expo generated files
+/frontend/.expo/settings.json
+
+# Ignore Expo debugging logs
+/frontend/metro.config.js
+/frontend/babel.config.js
